@@ -33,7 +33,7 @@ tar xf VOCtest_06-Nov-2007.tar
 ```
 
 6. By default, darkflow will save checkpoints at each 250 step (you can change it) in `ckpt` directory (you have to create one if it does not exist). End training process when the loss/avg loss does maintain similar close values. We have good training when loss/avg-loss is close to 1. In this example, I stopped training at 4500 steps (took few hours to train). 
-To use the trained model, you have to download the trained file from [here](https://drive.google.com/file/d/17ZILb6RwRSdfTpt9zoTmH9mvsx5u8jls/view?usp=sharing) and place it in `ckpt` directory
+To use the trained model, you have to download the trained file from my drive ([here](https://drive.google.com/file/d/17ZILb6RwRSdfTpt9zoTmH9mvsx5u8jls/view?usp=sharing)) and place it in `ckpt` directory
 
 
 ## Face detection using MTCNN
@@ -41,7 +41,7 @@ For face detection, we used MTCNN since I have an experience in using it. It is 
 
 
 ## Age and gender estimation
-For age and gender estimation, WideResnet with corresponding weights is used. You have to download the pretrained weights of WideResnet from [here](https://drive.google.com/file/d/10ZRgOYNxIR3qcXmFQo09A6z-oOOKmkJ3/view?usp=sharing) and place them in `agender` directory. 
+For age and gender estimation, WideResnet with corresponding weights is used. You have to download the pretrained weights of WideResnet from my drive ([here](https://drive.google.com/file/d/10ZRgOYNxIR3qcXmFQo09A6z-oOOKmkJ3/view?usp=sharing)) and place them in `agender` directory. 
 
 
 ## PUT ALL TOGETHER
