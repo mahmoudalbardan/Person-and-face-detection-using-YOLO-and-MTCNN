@@ -5,7 +5,7 @@ For person detection, we will train the network within [darkflow](https://github
 
 
 
-## Dependencies
+## Requirements
 
 Python3.8, tensorflow 2.4.0, numpy 1.19.2, opencv 4.4.0
 
