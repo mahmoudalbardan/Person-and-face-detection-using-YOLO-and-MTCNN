@@ -1,4 +1,4 @@
-## Intro
+## Introduction
 
 Real-time person and face detection + age and gender estimation. We will use YOLO (YOU ONLY LOOK ONCE) algorithm for person detection, MTCNN (Multi-task Cascaded Convolutional Networks) (pretrained) algorithm for face detection and WideRest (pretrained) for the gender/age estimation .
 For person detection, we will train the network within [darkflow](https://github.com/thtrieu/darkflow) framework.
